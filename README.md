@@ -1,0 +1,1 @@
+Project plans to recreate the iconic google homepage. Will need to remember basic HTML and CSS rules
