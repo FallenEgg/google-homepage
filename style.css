@@ -1,0 +1,23 @@
+.google-image-parent{
+    position: relative;
+    width: 100%;
+    height: 19.5%;
+    margin-top: 68px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.google-image-child{
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+    height: 92px;
+    
+}
+
+.google-img{
+    text-align: center;
+}
