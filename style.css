@@ -1,23 +1,14 @@
-.google-image-parent{
-    position: relative;
-    width: 100%;
-    height: 19.5%;
-    margin-top: 68px;
+
+#google-img{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    margin: auto;
 }
 
-.google-image-child{
-    position: absolute;
-    bottom: 0px;
-    text-align: center;
-    width: 100%;
-    height: 92px;
-    
+#logo {
+    margin-top: 25vh;
+
 }
 
-.google-img{
-    text-align: center;
+.nav-right {
+    float: right;
 }
