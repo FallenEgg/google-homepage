@@ -9,7 +9,7 @@
 
 }
 
-ul {
+nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -17,7 +17,7 @@ ul {
 }
 
 
-li {
+a {
     display: block;
     color: #707070;
     text-align: center;
@@ -27,7 +27,7 @@ li {
     font-size: 14px;
 }
 
-li:hover {
+a:hover {
     text-decoration: underline;
     cursor: pointer;
 }
