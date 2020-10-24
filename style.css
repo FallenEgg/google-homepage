@@ -1,26 +1,20 @@
-
-#google-img{
+#google-img {
     display: block;
     margin: auto;
 }
 
 #logo {
     margin-top: 25vh;
-
 }
 
 nav {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+    padding-left: 10px;
+    padding-top: 15px;
 }
 
-
 a {
-    display: block;
     color: #707070;
-    text-align: center;
     padding: 10px 16px;
     text-decoration: none;
     font-family: Tahoma;
@@ -34,34 +28,46 @@ a:hover {
 
 .left-stuff {
     float: left;
-    margin-left: 10px;
-    margin-top: 7px;
 }
-
 
 .right-stuff {
     float: right;
-    margin-right: 10px;
-    margin-top: 7px;
+}
 
+.bottom-left {
+    float: left;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+
+.bottom-right {
+    float: right;
 }
 
 #form-container {
     text-align: center;
 }
 
+#bottom-container {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
 .searchbar {
-    margin:0 auto;
-    width:575px;
-    border-radius:30px;
-    border:1px solid #dcdcdc;
+    margin: 0 auto;
+    width: 575px;
+    border-radius: 30px;
+    border: 1px solid #dcdcdc;
 }
 
 #search {
-    height:45px;
-    border:none;
-    width:500px;
-    font-size:16px;
+    height: 45px;
+    border: none;
+    width: 500px;
+    font-size: 16px;
     outline: none;
 }
 
@@ -70,8 +76,8 @@ a:hover {
     border: none;
     color: #707070;
     font-size: 15px;
-    padding: 10px 20px;
-    margin: 5px;
+    padding: 12px 20px;
+    margin: 15px;
     border-radius: 4px;
     outline: none;
 }
